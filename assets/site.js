@@ -29,9 +29,8 @@ for(const gallery of document.querySelectorAll('[data-gallery]')){
  if(links.length<2)dialog.querySelectorAll('[data-prev],[data-next]').forEach(b=>b.hidden=true);
 }
 for(const box of document.querySelectorAll('[data-video]')){
- const video=box.querySelector('video'),button=box.querySelector('button'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
+ const video=box.querySelector('video'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
  let loaded=false,loading=null,wants=!reduce.matches;
- const update=()=>{button.textContent=video.paused?'Přehrát video':'Pozastavit video';};
  const fallback=()=>{const source=video.querySelector('source');source.src=source.dataset.src;video.load();loaded=true;};
  const load=async()=>{
   const sourcePath=video.querySelector('source').dataset.src;
@@ -47,14 +46,10 @@ for(const box of document.querySelectorAll('[data-video]')){
   video.load();loaded=true;
  };
  const play=()=>{
-  if(loaded){video.play().catch(update);return;}
+  if(loaded){video.play().catch(()=>{});return;}
   if(!loading)loading=load().catch(fallback);
-  loading.then(()=>{if(wants&&!document.hidden)video.play().catch(update);});
+  loading.then(()=>{if(wants&&!document.hidden)video.play().catch(()=>{});});
  };
- button.hidden=false;
- button.addEventListener('click',()=>{wants=!wants;if(wants)play();else video.pause();});
- video.addEventListener('play',update);video.addEventListener('pause',update);
- video.addEventListener('error',()=>{button.textContent='Video není dostupné';button.disabled=true;});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();else if(wants)play();});
  reduce.addEventListener('change',event=>{wants=!event.matches;if(wants&&!document.hidden)play();else video.pause();});
  if(wants)play();

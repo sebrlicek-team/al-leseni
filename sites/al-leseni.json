@@ -146,7 +146,7 @@
           "items": [
             {
               "title": "Mostní konstrukce",
-              "text": "Fotografie mostů, lávek, jezů a pracovních plošin z původní galerie.",
+              "text": "Mosty, lávky, jezy a pracovní plošiny v naší fotogalerii.",
               "image": {
                 "src": "/assets/al/most-lavka.jpg",
                 "alt": "Lešení lávky v Českých Budějovicích"
@@ -244,9 +244,9 @@
         {
           "type": "specs",
           "id": "rozsah",
-          "eyebrow": "Z PŮVODNÍ NABÍDKY",
+          "eyebrow": "NAŠE VYBAVENÍ",
           "title": "Fasádní lešení ALFIX 0.73",
-          "intro": "Rozsah a vybavení uvedené na původním webu. Konkrétní sestavu a dostupnost upřesníme podle zakázky.",
+          "intro": "Konkrétní sestavu a dostupnost vybavení upřesníme podle zakázky.",
           "items": [
             {
               "label": "Rozsah lešení",
@@ -385,9 +385,9 @@
         {
           "type": "specs",
           "id": "parametry",
-          "eyebrow": "PARAMETRY Z PŮVODNÍ NABÍDKY",
+          "eyebrow": "TECHNICKÉ PARAMETRY",
           "title": "Rozměry pojízdných věží",
-          "intro": "Parametry řad uvedených na původním webu. Výšku, sestavu a dostupnost ověříme při poptávce.",
+          "intro": "Pracovní výšku, sestavu a dostupnost ověříme při poptávce.",
           "items": [
             {
               "label": "ALUFIX 5000 · plošina",
@@ -407,7 +407,7 @@
             },
             {
               "label": "Řady 5000 a 6000",
-              "value": "Pracovní výšky uváděné v původní tabulce: 3,2 až 13,45 m"
+              "value": "Pracovní výšky 3,2 až 13,45 m podle sestavy"
             },
             {
               "label": "ALUFIX 80 · plošina / základna",
@@ -420,7 +420,7 @@
           "id": "doplnky",
           "eyebrow": "VYBAVENÍ",
           "title": "Sestavu lze doplnit",
-          "intro": "Původní nabídka uvádí také samostatné prvky pojízdného lešení.",
+          "intro": "K pojízdnému lešení nabízíme také samostatné prvky.",
           "items": [
             {
               "title": "Pracovní podlahy",
@@ -434,7 +434,7 @@
             },
             {
               "title": "ALUFIX 80",
-              "text": "Kompaktní varianta s plošinou 0,6 × 1,9 m, uváděná na původním webu.",
+              "text": "Kompaktní varianta s plošinou 0,6 × 1,9 m.",
               "category": "DALŠÍ VARIANTA"
             }
           ]
@@ -508,7 +508,7 @@
             "alt": "Kolové rypadlo MECALAC"
           },
           "paragraphs": [
-            "V původní nabídce je uvedeno kolové rypadlo MECALAC 9MWR s lopatami a paletovou vidlicí.",
+            "Kolové rypadlo MECALAC 9MWR vybavujeme podle práce lopatami nebo paletovou vidlicí.",
             "Pro zemní práce volejte strojníkovi na +420 725 280 255 nebo napište na info@al-leseni.cz."
           ]
         },
@@ -516,7 +516,7 @@
           "type": "specs",
           "id": "vybaveni",
           "eyebrow": "VYBAVENÍ STROJE",
-          "title": "MECALAC 9MWR v původní nabídce",
+          "title": "Vybavení kolového rypadla MECALAC 9MWR",
           "intro": "Uvedené příslušenství a možnosti je potřeba potvrdit pro konkrétní termín a práci.",
           "items": [
             {
@@ -537,7 +537,7 @@
             },
             {
               "label": "Dosah a nosnost",
-              "value": "Původní web uvádí zvedání do 6,5 m, výkop do 2,9 m a nosnost 3 t do 3 m"
+              "value": "Zvedání do 6,5 m, výkop do 2,9 m a nosnost až 3 t do 3 m"
             }
           ]
         },
@@ -551,7 +551,7 @@
             "alt": "Kolové rypadlo nakládá zeminu na sklápěcí vůz"
           },
           "paragraphs": [
-            "Podle původního webu pracujeme zejména v okolí Hradce Králové a Pardubic, například v Třebechovicích pod Orebem, Týništi nad Orlicí, Rychnově nad Kněžnou, Holicích, Náchodě, Jaroměři, Chrudimi a Přelouči.",
+            "Pracujeme zejména v okolí Hradce Králové a Pardubic, například v Třebechovicích pod Orebem, Týništi nad Orlicí, Rychnově nad Kněžnou, Holicích, Náchodě, Jaroměři, Chrudimi a Přelouči.",
             "Zakázku mimo uvedené oblasti s námi proberte individuálně. Pro domluvu zemních prací je k dispozici strojník na čísle +420 725 280 255."
           ]
         },
@@ -615,7 +615,7 @@
           "id": "uvod",
           "eyebrow": "REALIZACE",
           "title": "Naše realizace",
-          "intro": "Prohlédněte si fotografie konstrukcí na mostech a na budovách. Galerie vycházejí ze starého webu AL LEŠENÍ.",
+          "intro": "Prohlédněte si fotografie našich konstrukcí na mostech a na budovách.",
           "variant": "split",
           "media": {
             "src": "/assets/al/most-lavka.jpg",
@@ -665,7 +665,7 @@
         {
           "type": "split",
           "id": "prehled",
-          "eyebrow": "Z PŮVODNÍ GALERIE",
+          "eyebrow": "Z NAŠICH REALIZACÍ",
           "title": "Různé typy konstrukcí",
           "image": {
             "src": "/assets/al/budova-hlinsko.jpg",
@@ -692,14 +692,14 @@
     {
       "path": "/realizace/mosty/",
       "title": "Lešení na mostech",
-      "description": "Mostní realizace lešení AL LEŠENÍ a původní fotogalerie.",
+      "description": "Mostní realizace lešení AL LEŠENÍ a fotogalerie.",
       "sections": [
         {
           "type": "hero",
           "id": "uvod",
           "eyebrow": "LEŠENÍ NA MOSTECH",
           "title": "Lešení na mostech",
-          "intro": "Lávky, jezy a mostní pilíře vyžadují řešení podle tvaru konstrukce a přístupu na staveniště. Níže jsou fotografie z původní galerie AL LEŠENÍ.",
+          "intro": "Lávky, jezy a mostní pilíře vyžadují řešení podle tvaru konstrukce a přístupu na staveniště. Prohlédněte si naše realizace.",
           "variant": "split",
           "media": {
             "src": "/assets/al/most-lavka.jpg",
@@ -778,7 +778,7 @@
             },
             {
               "title": "Pracovní plošiny",
-              "text": "Horkovod v Rybitví a plošina v Ústí nad Orlicí z původní fotogalerie.",
+              "text": "Horkovod v Rybitví a plošina v Ústí nad Orlicí.",
               "category": "DALŠÍ KONSTRUKCE"
             }
           ]
@@ -799,14 +799,14 @@
     {
       "path": "/realizace/budovy/",
       "title": "Lešení na budovách",
-      "description": "Realizace lešení na budovách AL LEŠENÍ a původní fotogalerie.",
+      "description": "Realizace lešení na budovách AL LEŠENÍ a fotogalerie.",
       "sections": [
         {
           "type": "hero",
           "id": "uvod",
           "eyebrow": "LEŠENÍ NA BUDOVÁCH",
           "title": "Lešení na budovách",
-          "intro": "Fasády, historické objekty, průmyslové stavby i interiéry. Prohlédněte si fotografie z původní galerie AL LEŠENÍ.",
+          "intro": "Fasády, historické objekty, průmyslové stavby i interiéry. Prohlédněte si naše realizace.",
           "variant": "split",
           "media": {
             "src": "/assets/al/budova-chocen.jpeg",
@@ -910,14 +910,14 @@
     {
       "path": "/spolupracujeme/",
       "title": "Spolupracujeme",
-      "description": "Informace o spolupráci AL LEŠENÍ a odkaz na původní přehled.",
+      "description": "Informace o spolupráci AL LEŠENÍ se společností ALFIX Praha.",
       "sections": [
         {
           "type": "hero",
           "id": "uvod",
           "eyebrow": "SPOLUPRACUJEME",
           "title": "Spolupracujeme",
-          "intro": "Na původním webu AL LEŠENÍ je jako spolupracující partner uvedena společnost ALFIX Praha.",
+          "intro": "Spolupracujeme se společností ALFIX Praha, která se věnuje pronájmu fasádního a pojízdného lešení.",
           "variant": "split",
           "media": {
             "src": "/assets/al/partner.jpg",
@@ -951,8 +951,8 @@
           "type": "specs",
           "id": "alfix-kontakt",
           "eyebrow": "KONTAKT PARTNERA",
-          "title": "ALFIX Praha na původním webu",
-          "intro": "Údaje partnera převzaté z původní stránky; před návštěvou doporučujeme ověřit jejich aktuálnost přímo u partnera.",
+          "title": "Kontakt na ALFIX Praha",
+          "intro": "Před návštěvou si prosím ověřte aktuální informace přímo u partnera.",
           "items": [
             {
               "label": "Adresa",
@@ -1038,8 +1038,8 @@
           },
           "paragraphs": [
             "Provozovna: Pražská 552, 500 04 Hradec Králové.",
-            "Fakturační adresa uvedená na původním webu: AL LEŠENÍ, spol. s r.o., č.p. 63, 534 01 Veliny. Před osobní návštěvou si prosím domluvte termín.",
-            "Společnost je podle původního webu zapsána u Krajského soudu v Hradci Králové pod spisovou značkou C 12169."
+            "Fakturační adresa: AL LEŠENÍ, spol. s r.o., č.p. 63, 534 01 Veliny. Před osobní návštěvou si prosím domluvte termín.",
+            "Společnost je zapsána u Krajského soudu v Hradci Králové pod spisovou značkou C 12169."
           ]
         }
       ]

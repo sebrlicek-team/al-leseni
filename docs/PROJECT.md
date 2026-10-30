@@ -83,3 +83,7 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 ## Fotogalerie zemních prací · 2026-10-30
 - Na podstránku Zemní práce přidána galerie sedmi fotografií: pět z původní stránky AL LEŠENÍ a dvě ze zemniprace-pardubice.cz. Zadavatel potvrdil, že oba weby ukazují stejný stroj a obsluhu a výslovně povolil použití fotek z druhého webu.
 - Fotografie jsou uložené lokálně v optimalizované podobě (max. 1200 px na delší straně); opakovaný obrázek u sekce působnosti nahradila fotografie nakládání.
+
+## Úprava textů a banneru · 2026-10-30
+- Ve veřejném obsahu a metadatech klientských stránek odstraněny formulace odkazující na původní web, nabídku a galerii. Interní poznámky o původu údajů v tomto dokumentu zůstávají pro správu obsahu.
+- Z video banneru odstraněn ovládací přepínač. Video se dál automaticky přehrává, pokud návštěvník nemá zapnuté omezení pohybu; při něm zůstane náhledový obrázek.
