@@ -87,3 +87,6 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 ## Úprava textů a banneru · 2026-10-30
 - Ve veřejném obsahu a metadatech klientských stránek odstraněny formulace odkazující na původní web, nabídku a galerii. Interní poznámky o původu údajů v tomto dokumentu zůstávají pro správu obsahu.
 - Z video banneru odstraněn ovládací přepínač. Video se dál automaticky přehrává, pokud návštěvník nemá zapnuté omezení pohybu; při něm zůstane náhledový obrázek.
+
+## Titulní fotografie fasádního lešení · 2026-10-30
+- Na výslovný pokyn zadavatele nahradila fotografii v titulním banneru podstránky Fasádní lešení dodaná letecká fotografie stavby se síťovaným fasádním lešením. Fotografie v kartě na úvodní stránce zůstala samostatná.
