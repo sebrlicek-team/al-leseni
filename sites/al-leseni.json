@@ -547,12 +547,49 @@
           "eyebrow": "KDE PŮSOBÍME",
           "title": "Královéhradecký a Pardubický kraj",
           "image": {
-            "src": "/assets/al/zemni.jpg",
-            "alt": "Kolové rypadlo MECALAC při zemních pracích"
+            "src": "/assets/al/zemni-nakladani-kontejner.jpg",
+            "alt": "Kolové rypadlo nakládá zeminu na sklápěcí vůz"
           },
           "paragraphs": [
             "Podle původního webu pracujeme zejména v okolí Hradce Králové a Pardubic, například v Třebechovicích pod Orebem, Týništi nad Orlicí, Rychnově nad Kněžnou, Holicích, Náchodě, Jaroměři, Chrudimi a Přelouči.",
             "Zakázku mimo uvedené oblasti s námi proberte individuálně. Pro domluvu zemních prací je k dispozici strojník na čísle +420 725 280 255."
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotogalerie",
+          "eyebrow": "FOTOGALERIE",
+          "title": "Zemní práce v terénu",
+          "intro": "Ukázky výkopů, úprav terénu, nakládání a manipulace s materiálem.",
+          "images": [
+            {
+              "src": "/assets/al/zemni-vykop-stavba.jpg",
+              "alt": "Výkop u rozestavěného objektu kolovým rypadlem"
+            },
+            {
+              "src": "/assets/al/zemni-uprava-terenu.jpg",
+              "alt": "Kolové rypadlo upravuje terén u budovy"
+            },
+            {
+              "src": "/assets/al/zemni-vykop-komunikace.jpg",
+              "alt": "Kolové rypadlo při výkopu u komunikace"
+            },
+            {
+              "src": "/assets/al/zemni-vykop-zaklady.jpg",
+              "alt": "Výkopové práce u základů stavby"
+            },
+            {
+              "src": "/assets/al/zemni-manipulace-panely.jpg",
+              "alt": "Kolové rypadlo manipuluje s panely"
+            },
+            {
+              "src": "/assets/al/zemni-nakladani-kontejner.jpg",
+              "alt": "Nakládání zeminy na sklápěcí vůz"
+            },
+            {
+              "src": "/assets/al/zemni-paletova-vidlice.jpg",
+              "alt": "Kolové rypadlo s paletovou vidlicí"
+            }
           ]
         },
         {
