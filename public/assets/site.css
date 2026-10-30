@@ -19,3 +19,6 @@
 
 /* Light page surfaces */
 body{background:#fff}.section{background:#fff}.section:nth-of-type(2n){background:#f3f5f6}.card{background:#fff;border-color:#d9dfe1}.module-card{background:#fff;border-color:#d9dfe1}.cta{background:#fff;color:var(--ink)}.cta .eyebrow{color:#846400}.footer{background:#fff;color:var(--ink);border-top:1px solid #d9dfe1}.footer a,.footer .nav-link{color:var(--ink)}.footer .nav-link:hover{color:#846400}.map-panel{background:#f3f5f6}dialog{background:#fff}
+
+/* Show the full product photos in the two home-page service cards. */
+#nabidka .card:nth-child(-n+2) img{object-fit:contain;object-position:center;background:#fff;padding:16px}

@@ -72,3 +72,6 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 ## Světlé pozadí · 2026-10-30
 - Na pokyn zadavatele změněn béžový podklad na čistě bílý. Střídající se sekce, výzvy a pomocné panely mají jen jemnou světle šedou `#f3f5f6`; patička je bílá. Video banner a žlutý akcent zůstávají.
 - Odkazy na styly a skripty používají novou verzi pro okamžité načtení změny v prohlížeči.
+
+## Fotky v nabídce na úvodu · 2026-10-30
+- U prvních dvou karet „Fasádní lešení“ a „Pojízdné lešení“ na úvodní stránce se obrázek zobrazuje celý (`object-fit: contain`) s bílým okrajem, bez oříznutí. Ostatní fotografie zůstaly beze změny.
