@@ -62,3 +62,8 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 - Obsah služeb a adres převzat z veřejných stránek starého webu dne 2026-10-30. Ceny, slevy, aktuální dostupnost, certifikace a dokumenty nejsou zveřejněny jako platné nabídky; vyžadují ověření klientem. Fotografie a jejich popisky z původní galerie je třeba před finálním spuštěním potvrdit u klienta.
 - V aktivní konfiguraci je pracovní URL `https://al-leseni.seb-dev.cloud`, `indexable: false`. Kontaktní formulář je vynechán; telefon a e-mail fungují bez backendu. Provozní a fakturační adresy jsou jasně rozlišeny.
 - Ověření: `npm test` (26/26), `npm run build:pages` (9 HTML stránek a lokální média); kontrola odkazů, souborů a metadat proběhla v buildu. Živá adresa, nastavení GitHub Pages a odezva domény vyžadují samostatnou kontrolu po zveřejnění.
+
+## Úprava hlavičky a barev · 2026-10-30
+- Na pokyn zadavatele je navigace a dodané bílé logo umístěné přímo přes banner místo samostatného tmavého pruhu. Stejné řešení je na úvodu i podstránkách; mobilní menu se otevírá jako samostatný kontrastní panel nad obrazem.
+- Červený akcent nahradila žlutá `#e8bf36`. Na světlých plochách se pro drobný text používá tmavší zlatá a tlačítka mají tmavý popisek kvůli čitelnosti.
+- Ověření: 26 testů a sestavení všech 9 stránek pro GitHub Pages; živou desktopovou a mobilní podobu ještě zkontrolovat po nasazení.
