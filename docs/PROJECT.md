@@ -68,3 +68,7 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 - Červený akcent nahradila žlutá `#e8bf36`. Na světlých plochách se pro drobný text používá tmavší zlatá a tlačítka mají tmavý popisek kvůli čitelnosti.
 - Ověření: 26 testů a sestavení všech 9 stránek pro GitHub Pages; živou desktopovou a mobilní podobu ještě zkontrolovat po nasazení.
 - Po prvním nasazení se v prohlížeči načetl starší cacheovaný CSS soubor; odkazy na CSS a JS mají nyní novou verzi v URL, aby se změna projevila bez ručního vymazání cache.
+
+## Světlé pozadí · 2026-10-30
+- Na pokyn zadavatele změněn béžový podklad na čistě bílý. Střídající se sekce, výzvy a pomocné panely mají jen jemnou světle šedou `#f3f5f6`; patička je bílá. Video banner a žlutý akcent zůstávají.
+- Odkazy na styly a skripty používají novou verzi pro okamžité načtení změny v prohlížeči.
