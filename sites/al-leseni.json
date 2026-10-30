@@ -1,6 +1,6 @@
 {
   "name": "AL LEŠENÍ, spol. s r.o.",
-  "tagline": "Modulární základ pro klientské weby",
+  "tagline": "Fasádní a pojízdné lešení • zemní práce",
   "url": "https://al-leseni.seb-dev.cloud",
   "indexable": false,
   "theme": {
@@ -11,259 +11,567 @@
   },
   "navigation": [
     {
-      "label": "Nabídka",
-      "href": "/#nabidka"
+      "label": "Úvod",
+      "href": "/"
     },
     {
-      "label": "Příběh",
-      "href": "/#pribeh"
+      "label": "Fasádní lešení",
+      "href": "/fasadni-leseni/"
+    },
+    {
+      "label": "Pojízdné lešení",
+      "href": "/pojizdne-leseni/"
+    },
+    {
+      "label": "Zemní práce",
+      "href": "/zemni-prace/"
+    },
+    {
+      "label": "Realizace",
+      "href": "/realizace/"
     },
     {
       "label": "Kontakt",
-      "href": "/#kontakt"
+      "href": "/kontakt/"
     }
   ],
-  "footer": "Vývojová ukázka CCN. Ilustrační obsah, žádné automatické odesílání.",
-  "footerLinks": [],
+  "footer": "Fasádní a pojízdné lešení, zemní práce. Fotografie a aktuální ceny doplníme po ověření podkladů.",
+  "footerLinks": [
+    {
+      "label": "Spolupracujeme",
+      "href": "/spolupracujeme/"
+    }
+  ],
   "pages": [
     {
       "path": "/",
-      "title": "Stavebnice webů",
-      "description": "Katalog modulů CCN pro weby služeb, referencí a produktů.",
+      "title": "Lešení a zemní práce",
+      "description": "AL LEŠENÍ — fasádní lešení, pojízdné lešení ALUFIX a zemní práce. Prohlédněte si nabídku a kontaktujte nás.",
       "sections": [
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "MILACEK / UKÁZKOVÁ SESTAVA",
-          "title": "Vaše plány. Naše práce. Pevný základ.",
-          "intro": "Ukázková sestava modulů podle původního klientského webu. Obsah a média jsou určené k dalšímu doplnění.",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Lešení pro stavby, renovace a práci ve výšce",
+          "intro": "Nabízíme fasádní lešení, pojízdné lešení ALUFIX a zemní práce. Prohlédněte si jednotlivé oblasti nabídky a ozvěte se nám se svou poptávkou.",
           "variant": "split",
           "media": {
             "src": "/assets/building.svg",
-            "alt": "Ilustrační motiv: milacek"
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
           },
           "actions": [
             {
-              "label": "Prohlédnout moduly",
+              "label": "Prohlédnout nabídku",
               "href": "/#nabidka"
             },
             {
-              "label": "Ukázkový detail",
-              "href": "/detail/"
-            }
-          ]
-        },
-        {
-          "type": "stats",
-          "id": "cisla",
-          "title": "Společný základ v praxi",
-          "items": [
-            {
-              "value": "3",
-              "label": "zdrojové klientské weby"
-            },
-            {
-              "value": "11",
-              "label": "skládatelných obsahových modulů"
-            },
-            {
-              "value": "1",
-              "label": "společný postup nasazení"
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
             }
           ]
         },
         {
           "type": "cards",
           "id": "nabidka",
-          "eyebrow": "01 / SLUŽBY A KATALOG",
-          "title": "Karty podle vašeho obsahu.",
-          "intro": "Stejný modul pro služby, reference i produktové řady.",
-          "filterable": true,
+          "eyebrow": "NAŠE SLUŽBY",
+          "title": "S čím vám pomůžeme",
+          "intro": "Vyberte oblast, která odpovídá vaší stavbě.",
           "items": [
             {
-              "title": "Rekonstrukce rodinného domu",
-              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
-              "category": "Rekonstrukce",
-              "image": {
-                "src": "/assets/building.svg",
-                "alt": "Ilustrační karta 1"
-              },
+              "title": "Fasádní lešení",
+              "text": "Lešení pro práce na fasádách a stavebních objektech. Informace k pronájmu a montáži.",
+              "category": "Lešení",
               "link": {
-                "label": "Ukázkový detail",
-                "href": "/detail/"
+                "label": "Více informací",
+                "href": "/fasadni-leseni/"
               }
             },
             {
-              "title": "Bistro U Lupiče",
-              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
-              "category": "Novostavby",
-              "image": {
-                "src": "/assets/building.svg",
-                "alt": "Ilustrační karta 2"
-              },
+              "title": "Pojízdné lešení ALUFIX",
+              "text": "Mobilní lešení ALUFIX pro práce, při nichž se pracovní místo přesouvá.",
+              "category": "Lešení",
               "link": {
-                "label": "Ukázkový detail",
-                "href": "/detail/"
+                "label": "Více informací",
+                "href": "/pojizdne-leseni/"
               }
             },
             {
-              "title": "Stodola SALIXA",
-              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
-              "category": "Novostavby",
-              "image": {
-                "src": "/assets/building.svg",
-                "alt": "Ilustrační karta 3"
-              },
+              "title": "Zemní práce",
+              "text": "Zemní a výkopové práce se stavební technikou.",
+              "category": "Stavební práce",
               "link": {
-                "label": "Ukázkový detail",
-                "href": "/detail/"
+                "label": "Více informací",
+                "href": "/zemni-prace/"
               }
             }
           ]
         },
         {
-          "type": "split",
-          "id": "pribeh",
-          "eyebrow": "02 / O FIRMĚ",
-          "title": "Prostor pro vlastní příběh.",
-          "image": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační fotografie nahrazená grafikou"
-          },
-          "paragraphs": [
-            "Text a fotografie tvoří samostatný modul. V další zakázce stačí vyměnit obsah a vybrat barevné nastavení.",
-            "Ukázka vychází ze společné struktury tří webů. Není kopií jejich vzhledu ani kompletní migrací klientských stránek."
-          ]
-        },
-        {
-          "type": "steps",
-          "id": "postup",
-          "eyebrow": "03 / POSTUP",
-          "title": "Od zadání k publikaci.",
+          "type": "cards",
+          "id": "realizace",
+          "eyebrow": "REALIZACE",
+          "title": "Lešení na mostech a budovách",
+          "intro": "Původní web rozlišuje dvě samostatné oblasti realizací.",
           "items": [
             {
-              "title": "Vybereme sestavu",
-              "text": "Zvolíme moduly, jejich pořadí a stránky."
+              "title": "Lešení na mostech",
+              "text": "Přehled mostních realizací a odkaz na původní fotogalerii.",
+              "category": "Mosty",
+              "link": {
+                "label": "Více informací",
+                "href": "/realizace/mosty/"
+              }
             },
             {
-              "title": "Doplníme obsah",
-              "text": "Vložíme texty, kontakty, fotografie a média klienta."
-            },
-            {
-              "title": "Ověříme a nasadíme",
-              "text": "Zkontrolujeme odkazy, mobil a výsledné soubory."
-            }
-          ]
-        },
-        {
-          "type": "gallery",
-          "id": "galerie",
-          "eyebrow": "04 / GALERIE",
-          "title": "Obrázky s prohlížením.",
-          "images": [
-            {
-              "src": "/assets/building.svg",
-              "alt": "Ukázková stavba"
-            },
-            {
-              "src": "/assets/truck.svg",
-              "alt": "Ukázková doprava"
-            },
-            {
-              "src": "/assets/boat.svg",
-              "alt": "Ukázková loď"
-            }
-          ]
-        },
-        {
-          "type": "contact",
-          "id": "kontakt",
-          "eyebrow": "07 / KONTAKT",
-          "title": "Začněme rozhovorem.",
-          "address": "Ukázková společnost\nAdresa klienta se doplní při založení webu.",
-          "email": "kontakt@example.invalid",
-          "people": [
-            {
-              "name": "Kontaktní osoba",
-              "role": "Ukázková role"
-            }
-          ],
-          "form": {
-            "mode": "demo"
-          }
-        }
-      ]
-    },
-    {
-      "path": "/detail/",
-      "title": "Ukázkový detail",
-      "description": "Sestava detailu produktu nebo realizace.",
-      "sections": [
-        {
-          "type": "hero",
-          "id": "uvod",
-          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
-          "title": "Detail produktu nebo realizace.",
-          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
-          "variant": "split",
-          "media": {
-            "src": "/assets/boat.svg",
-            "alt": "Ilustrační grafika — ukázka modulu"
-          },
-          "actions": [
-            {
-              "label": "Zpět na přehled",
-              "href": "/#nabidka"
-            }
-          ]
-        },
-        {
-          "type": "specs",
-          "id": "parametry",
-          "title": "Parametry na jednom místě",
-          "items": [
-            {
-              "label": "Typ obsahu",
-              "value": "Produkt nebo reference"
-            },
-            {
-              "label": "Údaje",
-              "value": "Doplní klient"
-            },
-            {
-              "label": "Fotografie",
-              "value": "Vlastní nebo licencované"
-            }
-          ]
-        },
-        {
-          "type": "gallery",
-          "id": "fotografie",
-          "eyebrow": "04 / GALERIE",
-          "title": "Obrázky s prohlížením.",
-          "images": [
-            {
-              "src": "/assets/building.svg",
-              "alt": "Ukázková stavba"
-            },
-            {
-              "src": "/assets/truck.svg",
-              "alt": "Ukázková doprava"
-            },
-            {
-              "src": "/assets/boat.svg",
-              "alt": "Ukázková loď"
+              "title": "Lešení na budovách",
+              "text": "Přehled stavebních realizací a odkaz na původní fotogalerii.",
+              "category": "Budovy",
+              "link": {
+                "label": "Více informací",
+                "href": "/realizace/budovy/"
+              }
             }
           ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "title": "Zaujalo vás to?",
-          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
           "link": {
             "label": "Přejít na kontakt",
-            "href": "/#kontakt"
+            "href": "/kontakt/"
+          }
+        },
+        {
+          "type": "contact",
+          "id": "kontakt",
+          "eyebrow": "SPOJTE SE S NÁMI",
+          "title": "Kontakt",
+          "address": "AL LEŠENÍ, spol. s r.o.",
+          "email": "info@al-leseni.cz",
+          "phone": "+420 603 450 693"
+        }
+      ]
+    },
+    {
+      "path": "/fasadni-leseni/",
+      "title": "Fasádní lešení",
+      "description": "Informace o fasádním lešení a kontakt na AL LEŠENÍ.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Fasádní lešení",
+          "intro": "Fasádní lešení tvoří základ naší nabídky pro stavební a renovační práce. Pro konkrétní řešení stavby nás kontaktujte.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "sluzba",
+          "eyebrow": "FASÁDNÍ LEŠENÍ",
+          "title": "Řešení podle stavby",
+          "image": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika fasádního lešení"
+          },
+          "paragraphs": [
+            "Na původním webu najdete samostatnou nabídku fasádního lešení včetně informací k pronájmu a montáži.",
+            "Rozsah konstrukce, podmínky a cenu je vhodné řešit podle konkrétní stavby."
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Sdělte nám místo stavby, rozsah prací a požadovaný termín.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/pojizdne-leseni/",
+      "title": "Pojízdné lešení ALUFIX",
+      "description": "Pojízdné lešení ALUFIX v nabídce AL LEŠENÍ a kontakty pro poptávku.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Pojízdné lešení ALUFIX",
+          "intro": "Původní web představuje pojízdné lešení ALUFIX v samostatné nabídce. Rádi s vámi probereme vhodnou variantu pro vaši práci.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "id": "varianty",
+          "eyebrow": "POJÍZDNÉ LEŠENÍ",
+          "title": "Nabídka ALUFIX",
+          "intro": "Na původním webu jsou uvedeny řady ALUFIX 5000 a ALUFIX 6000. Dostupnost a parametry ověřte při poptávce.",
+          "items": [
+            {
+              "title": "ALUFIX 5000",
+              "text": "Informujte se o vhodné sestavě a aktuálních podmínkách pronájmu.",
+              "category": "ALUFIX",
+              "link": {
+                "label": "Více informací",
+                "href": "/kontakt/"
+              }
+            },
+            {
+              "title": "ALUFIX 6000",
+              "text": "Informujte se o vhodné sestavě a aktuálních podmínkách pronájmu.",
+              "category": "ALUFIX",
+              "link": {
+                "label": "Více informací",
+                "href": "/kontakt/"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "K poptávce pojízdného lešení využijte kontaktní údaje na stránce Kontakt.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/zemni-prace/",
+      "title": "Zemní práce",
+      "description": "Zemní a výkopové práce AL LEŠENÍ.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Zemní práce",
+          "intro": "Vedle lešení uvádí původní web také zemní práce se stavební technikou.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/truck.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "technika",
+          "eyebrow": "ZEMNÍ PRÁCE",
+          "title": "Práce se stavební technikou",
+          "image": {
+            "src": "/assets/truck.svg",
+            "alt": "Ilustrační grafika stavební techniky"
+          },
+          "paragraphs": [
+            "Původní nabídka zemních prací zmiňuje stroj MECALAC 9MWR.",
+            "Konkrétní rozsah práce, dostupnost techniky a cenu vám sdělíme podle zadání."
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Napište nám místo, požadovaný typ práce a předpokládaný termín.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/realizace/",
+      "title": "Realizace",
+      "description": "Lešení na mostech a na budovách — dvě kategorie realizací AL LEŠENÍ.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Realizace lešení",
+          "intro": "Prohlédněte si dvě oblasti realizací, které rozlišuje původní web AL LEŠENÍ.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "id": "kategorie",
+          "eyebrow": "ROZDĚLENÍ",
+          "title": "Mosty a budovy",
+          "items": [
+            {
+              "title": "Lešení na mostech",
+              "text": "Přejít na mostní realizace a původní fotogalerii.",
+              "category": "Mosty",
+              "link": {
+                "label": "Více informací",
+                "href": "/realizace/mosty/"
+              }
+            },
+            {
+              "title": "Lešení na budovách",
+              "text": "Přejít na realizace na budovách a původní fotogalerii.",
+              "category": "Budovy",
+              "link": {
+                "label": "Více informací",
+                "href": "/realizace/budovy/"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/realizace/mosty/",
+      "title": "Lešení na mostech",
+      "description": "Mostní realizace lešení AL LEŠENÍ a původní fotogalerie.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Lešení na mostech",
+          "intro": "Původní web má pro lešení na mostech samostatnou fotogalerii. Fotografie z ní zatím nejsou přeneseny do tohoto webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "fotogalerie",
+          "eyebrow": "FOTOGALERIE",
+          "title": "Původní galerie mostů",
+          "intro": "Fotografie realizací si můžete prohlédnout na původním webu.",
+          "link": {
+            "label": "Otevřít fotogalerii",
+            "href": "https://www.al-leseni.cz/fotogalerie-leseni-na-mostech.htm"
+          }
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/realizace/budovy/",
+      "title": "Lešení na budovách",
+      "description": "Realizace lešení na budovách AL LEŠENÍ a původní fotogalerie.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Lešení na budovách",
+          "intro": "Původní web má pro lešení na budovách samostatnou fotogalerii. Fotografie z ní zatím nejsou přeneseny do tohoto webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "fotogalerie",
+          "eyebrow": "FOTOGALERIE",
+          "title": "Původní galerie budov",
+          "intro": "Fotografie realizací si můžete prohlédnout na původním webu.",
+          "link": {
+            "label": "Otevřít fotogalerii",
+            "href": "https://www.al-leseni.cz/fotogalerie-leseni-na-budovach.htm"
+          }
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/spolupracujeme/",
+      "title": "Spolupracujeme",
+      "description": "Informace o spolupráci AL LEŠENÍ a odkaz na původní přehled.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Spolupracujeme",
+          "intro": "Původní web má samostatnou stránku věnovanou spolupráci. Aktuální seznam partnerů zatím nebyl ověřen.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "puvodni-web",
+          "eyebrow": "SPOLUPRÁCE",
+          "title": "Přehled na původním webu",
+          "intro": "Podrobnosti najdete na původní stránce.",
+          "link": {
+            "label": "Otevřít původní přehled",
+            "href": "https://www.al-leseni.cz/spolupracujeme.htm"
+          }
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "eyebrow": "KONTAKT",
+          "title": "Probereme vaše zadání",
+          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/kontakt/"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/kontakt/",
+      "title": "Kontakt",
+      "description": "Kontakt na AL LEŠENÍ pro fasádní a pojízdné lešení i zemní práce.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "AL LEŠENÍ",
+          "title": "Kontaktujte AL LEŠENÍ",
+          "intro": "Pošlete nám zprávu nebo zavolejte. Pro fasádní lešení a pojízdné lešení jsou na původním webu uvedena různá telefonní čísla.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+          },
+          "actions": [
+            {
+              "label": "Kontaktovat nás",
+              "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "id": "kontakt",
+          "eyebrow": "KONTAKT",
+          "title": "Napište nebo zavolejte",
+          "address": "AL LEŠENÍ, spol. s r.o.",
+          "email": "info@al-leseni.cz",
+          "phone": "+420 603 450 693",
+          "people": [
+            {
+              "name": "Fasádní lešení",
+              "role": "+420 603 450 693"
+            },
+            {
+              "name": "Pojízdné lešení a fakturace",
+              "role": "+420 495 535 313 / +420 605 212 831"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "puvodni-kontakt",
+          "eyebrow": "DALŠÍ ÚDAJE",
+          "title": "Kontaktní údaje na původním webu",
+          "intro": "Před cestou na provozovnu si ověřte aktuální adresu a otevírací dobu.",
+          "link": {
+            "label": "Otevřít původní kontakt",
+            "href": "https://www.al-leseni.cz/kontakt.htm"
           }
         }
       ]

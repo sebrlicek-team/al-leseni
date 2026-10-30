@@ -5,9 +5,16 @@
   "assets/site.css",
   "assets/site.js",
   "assets/truck.svg",
-  "detail/index.html",
   "documents/ukazka.txt",
+  "fasadni-leseni/index.html",
   "index.html",
+  "kontakt/index.html",
+  "pojizdne-leseni/index.html",
+  "realizace/budovy/index.html",
+  "realizace/index.html",
+  "realizace/mosty/index.html",
   "robots.txt",
-  "sitemap.xml"
+  "sitemap.xml",
+  "spolupracujeme/index.html",
+  "zemni-prace/index.html"
 ]
