@@ -67,3 +67,4 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 - Na pokyn zadavatele je navigace a dodané bílé logo umístěné přímo přes banner místo samostatného tmavého pruhu. Stejné řešení je na úvodu i podstránkách; mobilní menu se otevírá jako samostatný kontrastní panel nad obrazem.
 - Červený akcent nahradila žlutá `#e8bf36`. Na světlých plochách se pro drobný text používá tmavší zlatá a tlačítka mají tmavý popisek kvůli čitelnosti.
 - Ověření: 26 testů a sestavení všech 9 stránek pro GitHub Pages; živou desktopovou a mobilní podobu ještě zkontrolovat po nasazení.
+- Po prvním nasazení se v prohlížeči načetl starší cacheovaný CSS soubor; odkazy na CSS a JS mají nyní novou verzi v URL, aby se změna projevila bez ručního vymazání cache.
