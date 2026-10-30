@@ -75,3 +75,7 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 
 ## Fotky v nabídce na úvodu · 2026-10-30
 - U prvních dvou karet „Fasádní lešení“ a „Pojízdné lešení“ na úvodní stránce se obrázek zobrazuje celý (`object-fit: contain`) s bílým okrajem, bez oříznutí. Ostatní fotografie zůstaly beze změny.
+
+## Rozšíření podstránek · 2026-10-30
+- Podle veřejně dostupných podstránek původního webu doplněny údaje o rozsahu fasádního lešení a příslušenství, rozměrech řad ALUFIX 5000/6000/80, příslušenství a působnosti zemních prací, přehledy mostních a stavebních realizací, kontakt partnera a spisová značka firmy.
+- Fotogalerie mostů a budov rozšířeny o sedm fotografií s popisky z původního webu. Staré ceny, slevy, provozní hodiny a dokumenty nejsou prezentovány jako aktuální. U technických parametrů a kontaktu partnera je výslovně uveden původní zdroj a potřeba ověření dostupnosti či aktuálnosti.
