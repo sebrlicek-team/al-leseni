@@ -1,12 +1,12 @@
 {
   "name": "AL LEŠENÍ, spol. s r.o.",
-  "tagline": "Fasádní a pojízdné lešení • zemní práce",
+  "tagline": "Lešení a zemní práce · Hradec Králové",
   "url": "https://al-leseni.seb-dev.cloud",
   "indexable": false,
   "theme": {
-    "accent": "#a52c2c",
-    "ink": "#23332d",
-    "paper": "#f6f3ec",
+    "accent": "#c83335",
+    "ink": "#142526",
+    "paper": "#f5f2eb",
     "serif": false
   },
   "navigation": [
@@ -35,7 +35,7 @@
       "href": "/kontakt/"
     }
   ],
-  "footer": "Fasádní a pojízdné lešení, zemní práce. Fotografie a aktuální ceny doplníme po ověření podkladů.",
+  "footer": "AL LEŠENÍ, spol. s r.o. · Pražská 552, 500 04 Hradec Králové · IČ 25275470",
   "footerLinks": [
     {
       "label": "Spolupracujeme",
@@ -45,19 +45,21 @@
   "pages": [
     {
       "path": "/",
-      "title": "Lešení a zemní práce",
-      "description": "AL LEŠENÍ — fasádní lešení, pojízdné lešení ALUFIX a zemní práce. Prohlédněte si nabídku a kontaktujte nás.",
+      "title": "Pronájem a montáž lešení",
+      "description": "AL LEŠENÍ z Hradce Králové: fasádní a pojízdné lešení, zemní práce a ukázky realizací na mostech i budovách.",
       "sections": [
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
-          "title": "Lešení pro stavby, renovace a práci ve výšce",
-          "intro": "Nabízíme fasádní lešení, pojízdné lešení ALUFIX a zemní práce. Prohlédněte si jednotlivé oblasti nabídky a ozvěte se nám se svou poptávkou.",
-          "variant": "split",
+          "eyebrow": "AL LEŠENÍ · HRADEC KRÁLOVÉ",
+          "title": "Lešení pro každý rozměr stavby",
+          "intro": "Fasádní a pojízdné lešení, konstrukce pro mosty i budovy a zemní práce. Z Hradce Králové působíme po celé České republice.",
+          "variant": "cover",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/most-banner.jpg",
+            "video": "/assets/al/banner.mp4",
+            "kind": "video",
+            "alt": "Lešení na mostní konstrukci nad vodou"
           },
           "actions": [
             {
@@ -65,31 +67,39 @@
               "href": "/#nabidka"
             },
             {
-              "label": "Kontaktovat nás",
-              "href": "/kontakt/"
+              "label": "Zavolat nám",
+              "href": "tel:+420603450693"
             }
           ]
         },
         {
           "type": "cards",
           "id": "nabidka",
-          "eyebrow": "NAŠE SLUŽBY",
-          "title": "S čím vám pomůžeme",
-          "intro": "Vyberte oblast, která odpovídá vaší stavbě.",
+          "eyebrow": "CO DĚLÁME",
+          "title": "Od lešení po zemní práce",
+          "intro": "Řešení pro fasády, pohyblivé pracovní pozice a přípravu staveniště.",
           "items": [
             {
               "title": "Fasádní lešení",
-              "text": "Lešení pro práce na fasádách a stavebních objektech. Informace k pronájmu a montáži.",
-              "category": "Lešení",
+              "text": "Pronájem a montáž lešení ALFIX 0.73, zavěšených konstrukcí a plošin.",
+              "image": {
+                "src": "/assets/al/fasada.jpg",
+                "alt": "Fasádní lešení na stavbě"
+              },
+              "category": "SLUŽBY",
               "link": {
                 "label": "Více informací",
                 "href": "/fasadni-leseni/"
               }
             },
             {
-              "title": "Pojízdné lešení ALUFIX",
-              "text": "Mobilní lešení ALUFIX pro práce, při nichž se pracovní místo přesouvá.",
-              "category": "Lešení",
+              "title": "Pojízdné lešení",
+              "text": "Hliníkové pracovní věže ALUFIX 5000 a 6000 pro haly, dílny i venkovní práce.",
+              "image": {
+                "src": "/assets/al/alufix-5000.jpg",
+                "alt": "Pojízdné lešení ALUFIX 5000"
+              },
+              "category": "SLUŽBY",
               "link": {
                 "label": "Více informací",
                 "href": "/pojizdne-leseni/"
@@ -97,8 +107,12 @@
             },
             {
               "title": "Zemní práce",
-              "text": "Zemní a výkopové práce se stavební technikou.",
-              "category": "Stavební práce",
+              "text": "Výkopy, rovnání terénu a manipulace s materiálem kolovým rypadlem MECALAC 9MWR.",
+              "image": {
+                "src": "/assets/al/zemni.jpg",
+                "alt": "Kolové rypadlo MECALAC"
+              },
+              "category": "SLUŽBY",
               "link": {
                 "label": "Více informací",
                 "href": "/zemni-prace/"
@@ -107,25 +121,50 @@
           ]
         },
         {
+          "type": "split",
+          "id": "o-nas",
+          "eyebrow": "O NÁS",
+          "title": "Z Hradce Králové na stavby po celé republice",
+          "image": {
+            "src": "/assets/al/fasada-2.jpg",
+            "alt": "Fasádní lešení na budově"
+          },
+          "paragraphs": [
+            "Zajišťujeme pronájem a montáž fasádního lešení a řešení pro náročnější konstrukce, včetně mostních objektů.",
+            "Každá stavba má jiné podmínky. Rozsah, dopravu a montáž proto navrhujeme podle konkrétního zadání."
+          ],
+          "link": {
+            "label": "Podívat se na realizace",
+            "href": "/realizace/"
+          }
+        },
+        {
           "type": "cards",
           "id": "realizace",
-          "eyebrow": "REALIZACE",
+          "eyebrow": "NAŠE PRÁCE",
           "title": "Lešení na mostech a budovách",
-          "intro": "Původní web rozlišuje dvě samostatné oblasti realizací.",
           "items": [
             {
-              "title": "Lešení na mostech",
-              "text": "Přehled mostních realizací a odkaz na původní fotogalerii.",
-              "category": "Mosty",
+              "title": "Mostní konstrukce",
+              "text": "Fotografie mostů, lávek, jezů a pracovních plošin z původní galerie.",
+              "image": {
+                "src": "/assets/al/most-lavka.jpg",
+                "alt": "Lešení lávky v Českých Budějovicích"
+              },
+              "category": "MOSTY",
               "link": {
                 "label": "Více informací",
                 "href": "/realizace/mosty/"
               }
             },
             {
-              "title": "Lešení na budovách",
-              "text": "Přehled stavebních realizací a odkaz na původní fotogalerii.",
-              "category": "Budovy",
+              "title": "Budovy a interiéry",
+              "text": "Ukázky fasád, věží, průmyslových objektů a interiérových konstrukcí.",
+              "image": {
+                "src": "/assets/al/budova-chocen.jpeg",
+                "alt": "Lešení u radnice v Chocni"
+              },
+              "category": "BUDOVY",
               "link": {
                 "label": "Více informací",
                 "href": "/realizace/budovy/"
@@ -136,22 +175,32 @@
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Řekněte nám o své stavbě",
+          "intro": "Pošlete místo, termín a představu o rozsahu prací. Ozveme se vám s dalším postupem.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         },
         {
           "type": "contact",
           "id": "kontakt",
-          "eyebrow": "SPOJTE SE S NÁMI",
-          "title": "Kontakt",
-          "address": "AL LEŠENÍ, spol. s r.o.",
+          "eyebrow": "KONTAKT",
+          "title": "Jsme na telefonu i e-mailu",
+          "address": "AL LEŠENÍ, spol. s r.o.\nPražská 552\n500 04 Hradec Králové",
           "email": "info@al-leseni.cz",
-          "phone": "+420 603 450 693"
+          "phone": "+420 603 450 693",
+          "people": [
+            {
+              "name": "Fasádní lešení",
+              "role": "+420 603 450 693"
+            },
+            {
+              "name": "Pojízdné lešení a fakturace",
+              "role": "+420 495 535 313 · +420 605 212 831"
+            }
+          ]
         }
       ]
     },
@@ -163,17 +212,17 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
-          "title": "Fasádní lešení",
-          "intro": "Fasádní lešení tvoří základ naší nabídky pro stavební a renovační práce. Pro konkrétní řešení stavby nás kontaktujte.",
+          "eyebrow": "FASÁDNÍ LEŠENÍ",
+          "title": "Fasádní lešení pro vaši stavbu",
+          "intro": "Pronájem a montáž fasádního lešení ALFIX 0.73, zavěšeného lešení a pracovních plošin. Dopravu zajišťujeme po celé České republice.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/fasada.jpg",
+            "alt": "Fasádní lešení na stavbě"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
@@ -181,25 +230,45 @@
         {
           "type": "split",
           "id": "sluzba",
-          "eyebrow": "FASÁDNÍ LEŠENÍ",
-          "title": "Řešení podle stavby",
+          "eyebrow": "PRONÁJEM A MONTÁŽ",
+          "title": "Konstrukce podle konkrétního objektu",
           "image": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika fasádního lešení"
+            "src": "/assets/al/fasada-2.jpg",
+            "alt": "Fasádní lešení na budově"
           },
           "paragraphs": [
-            "Na původním webu najdete samostatnou nabídku fasádního lešení včetně informací k pronájmu a montáži.",
-            "Rozsah konstrukce, podmínky a cenu je vhodné řešit podle konkrétní stavby."
+            "Vedle běžného fasádního lešení nabízíme také zavěšená řešení, prostorové konstrukce, stavební výtahy, kladky, sítě a plachty.",
+            "Připravíme individuální kalkulaci podle zaměření, rozsahu stavby a požadované doby pronájmu."
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "ukazky",
+          "eyebrow": "FOTOGALERIE",
+          "title": "Ukázky fasádního lešení",
+          "images": [
+            {
+              "src": "/assets/al/budova-chocen.jpeg",
+              "alt": "Lešení u radnice v Chocni"
+            },
+            {
+              "src": "/assets/al/budova-interier.jpg",
+              "alt": "Lešení v interiéru"
+            },
+            {
+              "src": "/assets/al/budova-zurich.jpg",
+              "alt": "Lešení na vile v Zürichu"
+            }
           ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Sdělte nám místo stavby, rozsah prací a požadovaný termín.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Potřebujete lešení na fasádu?",
+          "intro": "Pošlete rozměry a místo stavby. Domluvíme vhodnou sestavu, dopravu i montáž.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -213,17 +282,17 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
+          "eyebrow": "POJÍZDNÉ LEŠENÍ ALUFIX",
           "title": "Pojízdné lešení ALUFIX",
-          "intro": "Původní web představuje pojízdné lešení ALUFIX v samostatné nabídce. Rádi s vámi probereme vhodnou variantu pro vaši práci.",
+          "intro": "Mobilní hliníkové pracovní věže pro práci v halách, dílnách i na volném prostranství. Vybereme sestavu podle potřebné pracovní výšky.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/alufix-5000.jpg",
+            "alt": "Pojízdné lešení ALUFIX 5000"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
@@ -231,13 +300,16 @@
         {
           "type": "cards",
           "id": "varianty",
-          "eyebrow": "POJÍZDNÉ LEŠENÍ",
-          "title": "Nabídka ALUFIX",
-          "intro": "Na původním webu jsou uvedeny řady ALUFIX 5000 a ALUFIX 6000. Dostupnost a parametry ověřte při poptávce.",
+          "eyebrow": "NABÍDKA",
+          "title": "Pracovní věže ALUFIX",
           "items": [
             {
               "title": "ALUFIX 5000",
-              "text": "Informujte se o vhodné sestavě a aktuálních podmínkách pronájmu.",
+              "text": "Pracovní plošina přibližně 0,6 × 2,7 m; dostupnou výšku a sestavu potvrdíme při poptávce.",
+              "image": {
+                "src": "/assets/al/alufix-5000.jpg",
+                "alt": "Věž ALUFIX 5000"
+              },
               "category": "ALUFIX",
               "link": {
                 "label": "Více informací",
@@ -246,7 +318,11 @@
             },
             {
               "title": "ALUFIX 6000",
-              "text": "Informujte se o vhodné sestavě a aktuálních podmínkách pronájmu.",
+              "text": "Pracovní plošina přibližně 1,2 × 2,7 m; varianta pro větší pracovní prostor.",
+              "image": {
+                "src": "/assets/al/alufix-6000.jpg",
+                "alt": "Věž ALUFIX 6000"
+              },
               "category": "ALUFIX",
               "link": {
                 "label": "Více informací",
@@ -258,11 +334,11 @@
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "K poptávce pojízdného lešení využijte kontaktní údaje na stránce Kontakt.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Zeptejte se na vhodnou sestavu",
+          "intro": "Napište pracovní výšku, místo a dobu pronájmu. Aktuální podmínky a cenu potvrdíme podle zadání.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -276,43 +352,66 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
-          "title": "Zemní práce",
-          "intro": "Vedle lešení uvádí původní web také zemní práce se stavební technikou.",
+          "eyebrow": "ZEMNÍ PRÁCE",
+          "title": "Zemní a výkopové práce",
+          "intro": "Kolové rypadlo MECALAC 9MWR pro výkopy, rovnání terénu, nakládání a manipulaci s materiálem. Působíme hlavně v Královéhradeckém a Pardubickém kraji.",
           "variant": "split",
           "media": {
-            "src": "/assets/truck.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/zemni.jpg",
+            "alt": "Kolové rypadlo MECALAC 9MWR"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "id": "sluzby",
+          "eyebrow": "NAŠE SLUŽBY",
+          "title": "Co zvládne naše technika",
+          "items": [
+            {
+              "title": "Výkopy",
+              "text": "Příprava základů, terénní výkopy a související zemní práce.",
+              "category": "MECALAC 9MWR"
+            },
+            {
+              "title": "Rovnání terénu",
+              "text": "Úpravy a srovnání terénu podle podmínek staveniště.",
+              "category": "MECALAC 9MWR"
+            },
+            {
+              "title": "Nakládání a manipulace",
+              "text": "Nakládání materiálu, paletová vidlice a další příslušenství.",
+              "category": "MECALAC 9MWR"
             }
           ]
         },
         {
           "type": "split",
           "id": "technika",
-          "eyebrow": "ZEMNÍ PRÁCE",
-          "title": "Práce se stavební technikou",
+          "eyebrow": "TECHNIKA",
+          "title": "Kolové rypadlo MECALAC 9MWR",
           "image": {
-            "src": "/assets/truck.svg",
-            "alt": "Ilustrační grafika stavební techniky"
+            "src": "/assets/al/zemni.jpg",
+            "alt": "Kolové rypadlo MECALAC"
           },
           "paragraphs": [
-            "Původní nabídka zemních prací zmiňuje stroj MECALAC 9MWR.",
-            "Konkrétní rozsah práce, dostupnost techniky a cenu vám sdělíme podle zadání."
+            "V původní nabídce je uvedeno kolové rypadlo MECALAC 9MWR s lopatami a paletovou vidlicí.",
+            "Pro zemní práce volejte strojníkovi na +420 725 280 255 nebo napište na info@al-leseni.cz."
           ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Napište nám místo, požadovaný typ práce a předpokládaný termín.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Probereme zemní práce",
+          "intro": "Sdělte nám místo, typ práce a termín. Pro přímou domluvu se strojníkem volejte +420 725 280 255.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -326,17 +425,17 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
-          "title": "Realizace lešení",
-          "intro": "Prohlédněte si dvě oblasti realizací, které rozlišuje původní web AL LEŠENÍ.",
+          "eyebrow": "REALIZACE",
+          "title": "Naše realizace",
+          "intro": "Prohlédněte si fotografie konstrukcí na mostech a na budovách. Galerie vycházejí ze starého webu AL LEŠENÍ.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/most-lavka.jpg",
+            "alt": "Lešení lávky v Českých Budějovicích"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
@@ -344,13 +443,17 @@
         {
           "type": "cards",
           "id": "kategorie",
-          "eyebrow": "ROZDĚLENÍ",
+          "eyebrow": "FOTOGALERIE",
           "title": "Mosty a budovy",
           "items": [
             {
               "title": "Lešení na mostech",
-              "text": "Přejít na mostní realizace a původní fotogalerii.",
-              "category": "Mosty",
+              "text": "Lávky, jezy, pilíře a konstrukce nad vodou.",
+              "image": {
+                "src": "/assets/al/most-lavka.jpg",
+                "alt": "Lešení lávky v Českých Budějovicích"
+              },
+              "category": "REALIZACE",
               "link": {
                 "label": "Více informací",
                 "href": "/realizace/mosty/"
@@ -358,8 +461,12 @@
             },
             {
               "title": "Lešení na budovách",
-              "text": "Přejít na realizace na budovách a původní fotogalerii.",
-              "category": "Budovy",
+              "text": "Fasády, věže, průmyslové objekty i interiéry.",
+              "image": {
+                "src": "/assets/al/budova-chocen.jpeg",
+                "alt": "Lešení u radnice v Chocni"
+              },
+              "category": "REALIZACE",
               "link": {
                 "label": "Více informací",
                 "href": "/realizace/budovy/"
@@ -370,11 +477,11 @@
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Chystáte podobnou stavbu?",
+          "intro": "Ozvěte se a popište konstrukci, místo a termín.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -388,40 +495,65 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
+          "eyebrow": "LEŠENÍ NA MOSTECH",
           "title": "Lešení na mostech",
-          "intro": "Původní web má pro lešení na mostech samostatnou fotogalerii. Fotografie z ní zatím nejsou přeneseny do tohoto webu.",
+          "intro": "Lávky, jezy a mostní pilíře vyžadují řešení podle tvaru konstrukce a přístupu na staveniště. Níže jsou fotografie z původní galerie AL LEŠENÍ.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/most-lavka.jpg",
+            "alt": "Lešení lávky v Českých Budějovicích"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
         },
         {
-          "type": "cta",
+          "type": "gallery",
           "id": "fotogalerie",
           "eyebrow": "FOTOGALERIE",
-          "title": "Původní galerie mostů",
-          "intro": "Fotografie realizací si můžete prohlédnout na původním webu.",
-          "link": {
-            "label": "Otevřít fotogalerii",
-            "href": "https://www.al-leseni.cz/fotogalerie-leseni-na-mostech.htm"
-          }
+          "title": "Mosty a lávky",
+          "images": [
+            {
+              "src": "/assets/al/most-rybitvi.jpg",
+              "alt": "Lešení na horkovodu v Rybitví"
+            },
+            {
+              "src": "/assets/al/most-lavka.jpg",
+              "alt": "Lešení lávky v Českých Budějovicích"
+            },
+            {
+              "src": "/assets/al/most-teplice.jpg",
+              "alt": "Lešení mostu v Teplicích nad Metují"
+            },
+            {
+              "src": "/assets/al/most-jez.jpg",
+              "alt": "Lešení jezu v Předměřicích nad Labem"
+            },
+            {
+              "src": "/assets/al/most-plo.jpg",
+              "alt": "Plošina v Ústí nad Orlicí"
+            },
+            {
+              "src": "/assets/al/most-pilir.jpg",
+              "alt": "Lešení pilíře v Trutnově-Poříčí"
+            },
+            {
+              "src": "/assets/al/most-plzen.jpg",
+              "alt": "Lešení při revitalizaci mostu v Plzni"
+            }
+          ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Potřebujete mostní lešení?",
+          "intro": "Popište konstrukci a požadovaný přístup. Připravíme návrh dalšího postupu.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -435,40 +567,65 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
+          "eyebrow": "LEŠENÍ NA BUDOVÁCH",
           "title": "Lešení na budovách",
-          "intro": "Původní web má pro lešení na budovách samostatnou fotogalerii. Fotografie z ní zatím nejsou přeneseny do tohoto webu.",
+          "intro": "Fasády, historické objekty, průmyslové stavby i interiéry. Prohlédněte si fotografie z původní galerie AL LEŠENÍ.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/budova-chocen.jpeg",
+            "alt": "Lešení u radnice v Chocni"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
         },
         {
-          "type": "cta",
+          "type": "gallery",
           "id": "fotogalerie",
           "eyebrow": "FOTOGALERIE",
-          "title": "Původní galerie budov",
-          "intro": "Fotografie realizací si můžete prohlédnout na původním webu.",
-          "link": {
-            "label": "Otevřít fotogalerii",
-            "href": "https://www.al-leseni.cz/fotogalerie-leseni-na-budovach.htm"
-          }
+          "title": "Budovy a interiéry",
+          "images": [
+            {
+              "src": "/assets/al/budova-chocen.jpeg",
+              "alt": "Lešení u radnice v Chocni"
+            },
+            {
+              "src": "/assets/al/budova-interier.jpg",
+              "alt": "Lešení v interiéru"
+            },
+            {
+              "src": "/assets/al/budova-zurich.jpg",
+              "alt": "Lešení na vile v Zürichu"
+            },
+            {
+              "src": "/assets/al/budova-hlinsko.jpg",
+              "alt": "Lešení u sila v ČOV Hlinsko"
+            },
+            {
+              "src": "/assets/al/budova-hradec.jpg",
+              "alt": "Lešení v městském dvoře v Hradci Králové"
+            },
+            {
+              "src": "/assets/al/budova-beroun.jpeg",
+              "alt": "Lešení při opravě fasády v Berouně"
+            },
+            {
+              "src": "/assets/al/budova-melnik.jpg",
+              "alt": "Lešení kostelní věže v Mělnickém Vtelně"
+            }
+          ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Máte náročný objekt?",
+          "intro": "Pošlete základní popis a místo stavby. Probereme vhodné řešení.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -482,40 +639,46 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
+          "eyebrow": "SPOLUPRACUJEME",
           "title": "Spolupracujeme",
-          "intro": "Původní web má samostatnou stránku věnovanou spolupráci. Aktuální seznam partnerů zatím nebyl ověřen.",
+          "intro": "Na původním webu AL LEŠENÍ je jako spolupracující partner uvedena společnost ALFIX Praha.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/partner.jpg",
+            "alt": "Logo ALFIX Praha"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
         },
         {
-          "type": "cta",
-          "id": "puvodni-web",
-          "eyebrow": "SPOLUPRÁCE",
-          "title": "Přehled na původním webu",
-          "intro": "Podrobnosti najdete na původní stránce.",
-          "link": {
-            "label": "Otevřít původní přehled",
-            "href": "https://www.al-leseni.cz/spolupracujeme.htm"
-          }
+          "type": "partners",
+          "id": "partneri",
+          "eyebrow": "PARTNER",
+          "title": "ALFIX Praha",
+          "items": [
+            {
+              "name": "ALFIX Praha",
+              "image": {
+                "src": "/assets/al/partner.jpg",
+                "alt": "Logo ALFIX Praha"
+              },
+              "href": "https://www.leseni-alfix.cz/",
+              "text": "Pronájem pojízdného a fasádního lešení"
+            }
+          ]
         },
         {
           "type": "cta",
           "id": "poptavka",
-          "eyebrow": "KONTAKT",
-          "title": "Probereme vaše zadání",
-          "intro": "Zavolejte nám nebo napište, co potřebujete zajistit.",
+          "eyebrow": "POPTÁVKA",
+          "title": "Zajímá vás spolupráce?",
+          "intro": "Napište nám svou představu a kontakt.",
           "link": {
-            "label": "Přejít na kontakt",
+            "label": "Kontaktovat nás",
             "href": "/kontakt/"
           }
         }
@@ -529,17 +692,17 @@
         {
           "type": "hero",
           "id": "uvod",
-          "eyebrow": "AL LEŠENÍ",
-          "title": "Kontaktujte AL LEŠENÍ",
-          "intro": "Pošlete nám zprávu nebo zavolejte. Pro fasádní lešení a pojízdné lešení jsou na původním webu uvedena různá telefonní čísla.",
+          "eyebrow": "KONTAKT",
+          "title": "Spojte se s námi",
+          "intro": "Pro fasádní lešení, pojízdné věže i zemní práce. Zavolejte na příslušné číslo nebo napište na info@al-leseni.cz.",
           "variant": "split",
           "media": {
-            "src": "/assets/building.svg",
-            "alt": "Ilustrační grafika k nabídce AL LEŠENÍ"
+            "src": "/assets/al/kancelar.jpg",
+            "alt": "Kancelář AL LEŠENÍ"
           },
           "actions": [
             {
-              "label": "Kontaktovat nás",
+              "label": "Nezávazně poptat",
               "href": "/kontakt/"
             }
           ]
@@ -548,8 +711,8 @@
           "type": "contact",
           "id": "kontakt",
           "eyebrow": "KONTAKT",
-          "title": "Napište nebo zavolejte",
-          "address": "AL LEŠENÍ, spol. s r.o.",
+          "title": "Zavolejte nebo napište",
+          "address": "AL LEŠENÍ, spol. s r.o.\nPražská 552\n500 04 Hradec Králové\nIČ 25275470 · DIČ CZ25275470",
           "email": "info@al-leseni.cz",
           "phone": "+420 603 450 693",
           "people": [
@@ -559,22 +722,30 @@
             },
             {
               "name": "Pojízdné lešení a fakturace",
-              "role": "+420 495 535 313 / +420 605 212 831"
+              "role": "+420 495 535 313 · +420 605 212 831"
+            },
+            {
+              "name": "Zemní práce – strojník",
+              "role": "+420 725 280 255"
             }
           ]
         },
         {
-          "type": "cta",
-          "id": "puvodni-kontakt",
-          "eyebrow": "DALŠÍ ÚDAJE",
-          "title": "Kontaktní údaje na původním webu",
-          "intro": "Před cestou na provozovnu si ověřte aktuální adresu a otevírací dobu.",
-          "link": {
-            "label": "Otevřít původní kontakt",
-            "href": "https://www.al-leseni.cz/kontakt.htm"
-          }
+          "type": "split",
+          "id": "fakturace",
+          "eyebrow": "ADRESY",
+          "title": "Fakturační adresa",
+          "image": {
+            "src": "/assets/al/kancelar.jpg",
+            "alt": "Budova kanceláře AL LEŠENÍ"
+          },
+          "paragraphs": [
+            "Provozovna: Pražská 552, 500 04 Hradec Králové.",
+            "Fakturační adresa uvedená na původním webu: AL LEŠENÍ, spol. s r.o., č.p. 63, 534 01 Veliny. Před osobní návštěvou si prosím domluvte termín."
+          ]
         }
       ]
     }
-  ]
+  ],
+  "logo": "/assets/al/logo.png"
 }

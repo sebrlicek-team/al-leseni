@@ -56,3 +56,9 @@ Návrh stránek, cest a pořadí sekcí (zatím neschválený):
 
 ## Další krok
 - Struktura byla upřesněna a schválena, kopie repozitáře dokončena. Další obsahová iterace připraví funkční úvodní stránku s optimalizovaným videem a lokální náhled. Zachovat `indexable: false` a formulář `demo`; po tomto kroku počkat na připomínky. 
+
+## Aktualizace obsahu · 2026-10-30
+- Na výslovný pokyn doplněny všechny existující podstránky, skutečné fotografie ze starého webu, nové dodané logo a optimalizované video (MP4 bez zvuku, přibližně 0,6 MiB) s posterem. Barevnost: tmavá zelenošedá, světlé pozadí a červený akcent. Fotogalerie mostů a budov jsou oddělené. Fotografie i popisky vycházejí ze starého webu AL LEŠENÍ.
+- Obsah služeb a adres převzat z veřejných stránek starého webu dne 2026-10-30. Ceny, slevy, aktuální dostupnost, certifikace a dokumenty nejsou zveřejněny jako platné nabídky; vyžadují ověření klientem. Fotografie a jejich popisky z původní galerie je třeba před finálním spuštěním potvrdit u klienta.
+- V aktivní konfiguraci je pracovní URL `https://al-leseni.seb-dev.cloud`, `indexable: false`. Kontaktní formulář je vynechán; telefon a e-mail fungují bez backendu. Provozní a fakturační adresy jsou jasně rozlišeny.
+- Ověření: `npm test` (26/26), `npm run build:pages` (9 HTML stránek a lokální média); kontrola odkazů, souborů a metadat proběhla v buildu. Živá adresa, nastavení GitHub Pages a odezva domény vyžadují samostatnou kontrolu po zveřejnění.
