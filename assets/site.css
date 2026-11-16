@@ -22,3 +22,9 @@ body{background:#fff}.section{background:#fff}.section:nth-of-type(2n){backgroun
 
 /* Show the full product photos in the two home-page service cards. */
 #nabidka .card:nth-child(-n+2) img{object-fit:contain;object-position:center;background:#fff;padding:16px}
+
+/* Make each home-page service card one large click target. */
+#nabidka .card{position:relative;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .2s}
+#nabidka .card .text-link::after{content:"";position:absolute;inset:0}
+#nabidka .card:hover,#nabidka .card:focus-within{border-color:#846400;box-shadow:0 8px 24px #1425261a;transform:translateY(-2px)}
+#nabidka .card:focus-within{outline:3px solid var(--accent);outline-offset:3px}
